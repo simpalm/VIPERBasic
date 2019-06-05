@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04328E23228C043B004330CF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04328E22228C043B004330CF /* Utils.m */; };
+		04328E50228C36E1004330CF /* AlbumDetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04328E47228C36E1004330CF /* AlbumDetailsPresenter.m */; };
+		04328E51228C36E1004330CF /* AlbumDetailsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04328E4A228C36E1004330CF /* AlbumDetailsRouter.m */; };
+		04328E52228C36E1004330CF /* AlbumDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04328E4D228C36E1004330CF /* AlbumDetailsVC.m */; };
+		04350709228E9EBD0022CAE2 /* APIDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04350708228E9EBD0022CAE2 /* APIDataManager.m */; };
+		04FB5132228AE0C20096298C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5131228AE0C20096298C /* AppDelegate.m */; };
+		04FB5138228AE0C20096298C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB5136228AE0C20096298C /* Main.storyboard */; };
+		04FB513B228AE0C20096298C /* ViperBasic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5139228AE0C20096298C /* ViperBasic.xcdatamodeld */; };
+		04FB513D228AE0C30096298C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB513C228AE0C30096298C /* Assets.xcassets */; };
+		04FB5140228AE0C30096298C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB513E228AE0C30096298C /* LaunchScreen.storyboard */; };
+		04FB5143228AE0C30096298C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5142228AE0C30096298C /* main.m */; };
+		04FB515F228AE0F20096298C /* AlbumEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB514D228AE0F10096298C /* AlbumEntity.m */; };
+		04FB5160228AE0F20096298C /* AlbumInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5150228AE0F20096298C /* AlbumInteractor.m */; };
+		04FB5161228AE0F20096298C /* AlbumPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5154228AE0F20096298C /* AlbumPresenter.m */; };
+		04FB5162228AE0F20096298C /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB5159228AE0F20096298C /* AlbumView.m */; };
+		04FB5163228AE0F20096298C /* AlbumWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB515C228AE0F20096298C /* AlbumWireframe.m */; };
+		04FB5167228B1AF60096298C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB5166228B1AF60096298C /* Default-568h@2x.png */; };
+		04FB516B228B27A90096298C /* AlbumTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB516A228B27A90096298C /* AlbumTableCell.m */; };
+		04FD9CAB228DBBD40098ABEB /* Simpalm_ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD9CA8228DBBD40098ABEB /* Simpalm_ReachabilityManager.m */; };
+		04FD9CAC228DBBD40098ABEB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FD9CAA228DBBD40098ABEB /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04328E21228C043B004330CF /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		04328E22228C043B004330CF /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		04328E3D228C3497004330CF /* AlbumDetailsViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsViewProtocol.h; sourceTree = "<group>"; };
+		04328E46228C36E1004330CF /* AlbumDetailsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsPresenter.h; sourceTree = "<group>"; };
+		04328E47228C36E1004330CF /* AlbumDetailsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsPresenter.m; sourceTree = "<group>"; };
+		04328E49228C36E1004330CF /* AlbumDetailsRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsRouter.h; sourceTree = "<group>"; };
+		04328E4A228C36E1004330CF /* AlbumDetailsRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsRouter.m; sourceTree = "<group>"; };
+		04328E4C228C36E1004330CF /* AlbumDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsVC.h; sourceTree = "<group>"; };
+		04328E4D228C36E1004330CF /* AlbumDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsVC.m; sourceTree = "<group>"; };
+		04328E53228C54BD004330CF /* AlbumWireframeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumWireframeProtocol.h; sourceTree = "<group>"; };
+		04350707228E9EBD0022CAE2 /* APIDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIDataManager.h; sourceTree = "<group>"; };
+		04350708228E9EBD0022CAE2 /* APIDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIDataManager.m; sourceTree = "<group>"; };
+		0435070A228E9EFB0022CAE2 /* APIDataManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIDataManagerProtocol.h; sourceTree = "<group>"; };
+		04FB512D228AE0C20096298C /* ViperBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FB5130228AE0C20096298C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FB5131228AE0C20096298C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FB5137228AE0C20096298C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FB513A228AE0C20096298C /* ViperBasic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViperBasic.xcdatamodel; sourceTree = "<group>"; };
+		04FB513C228AE0C30096298C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FB513F228AE0C30096298C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FB5141228AE0C30096298C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB5142228AE0C30096298C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FB514C228AE0F10096298C /* AlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumEntity.h; sourceTree = "<group>"; };
+		04FB514D228AE0F10096298C /* AlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumEntity.m; sourceTree = "<group>"; };
+		04FB514F228AE0F20096298C /* AlbumInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInteractor.h; sourceTree = "<group>"; };
+		04FB5150228AE0F20096298C /* AlbumInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumInteractor.m; sourceTree = "<group>"; };
+		04FB5151228AE0F20096298C /* AlbumInteractorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumInteractorProtocol.h; sourceTree = "<group>"; };
+		04FB5153228AE0F20096298C /* AlbumPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPresenter.h; sourceTree = "<group>"; };
+		04FB5154228AE0F20096298C /* AlbumPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPresenter.m; sourceTree = "<group>"; };
+		04FB5158228AE0F20096298C /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
+		04FB5159228AE0F20096298C /* AlbumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumView.m; sourceTree = "<group>"; };
+		04FB515B228AE0F20096298C /* AlbumWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumWireframe.h; sourceTree = "<group>"; };
+		04FB515C228AE0F20096298C /* AlbumWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumWireframe.m; sourceTree = "<group>"; };
+		04FB515E228AE0F20096298C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		04FB5164228AE4990096298C /* AlbumViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewProtocol.h; sourceTree = "<group>"; };
+		04FB5165228AF99F0096298C /* PresenterToInetractorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresenterToInetractorProtocol.h; sourceTree = "<group>"; };
+		04FB5166228B1AF60096298C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04FB5168228B1C110096298C /* AlbumInteractorOutPutProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumInteractorOutPutProtocol.h; sourceTree = "<group>"; };
+		04FB5169228B27A90096298C /* AlbumTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumTableCell.h; sourceTree = "<group>"; };
+		04FB516A228B27A90096298C /* AlbumTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumTableCell.m; sourceTree = "<group>"; };
+		04FD9CA7228DBBD40098ABEB /* Simpalm_ReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simpalm_ReachabilityManager.h; sourceTree = "<group>"; };
+		04FD9CA8228DBBD40098ABEB /* Simpalm_ReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simpalm_ReachabilityManager.m; sourceTree = "<group>"; };
+		04FD9CA9228DBBD40098ABEB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		04FD9CAA228DBBD40098ABEB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FB512A228AE0C20096298C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04328E1F228C03F9004330CF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				04350705228E9EAC0022CAE2 /* API */,
+				04FD9CA6228DBBD40098ABEB /* Reachability */,
+				04328E20228C03F9004330CF /* UtilClass */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		04328E20228C03F9004330CF /* UtilClass */ = {
+			isa = PBXGroup;
+			children = (
+				04328E21228C043B004330CF /* Utils.h */,
+				04328E22228C043B004330CF /* Utils.m */,
+			);
+			path = UtilClass;
+			sourceTree = "<group>";
+		};
+		04328E3E228C36E1004330CF /* AlbumDetails */ = {
+			isa = PBXGroup;
+			children = (
+				04328E45228C36E1004330CF /* Presenter */,
+				04328E48228C36E1004330CF /* Router */,
+				04328E4B228C36E1004330CF /* View */,
+			);
+			path = AlbumDetails;
+			sourceTree = "<group>";
+		};
+		04328E45228C36E1004330CF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				04328E46228C36E1004330CF /* AlbumDetailsPresenter.h */,
+				04328E47228C36E1004330CF /* AlbumDetailsPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		04328E48228C36E1004330CF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				04328E49228C36E1004330CF /* AlbumDetailsRouter.h */,
+				04328E4A228C36E1004330CF /* AlbumDetailsRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		04328E4B228C36E1004330CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04328E4C228C36E1004330CF /* AlbumDetailsVC.h */,
+				04328E4D228C36E1004330CF /* AlbumDetailsVC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04350705228E9EAC0022CAE2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				04350706228E9EAC0022CAE2 /* APIDataManager */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		04350706228E9EAC0022CAE2 /* APIDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				04350707228E9EBD0022CAE2 /* APIDataManager.h */,
+				04350708228E9EBD0022CAE2 /* APIDataManager.m */,
+				0435070A228E9EFB0022CAE2 /* APIDataManagerProtocol.h */,
+			);
+			path = APIDataManager;
+			sourceTree = "<group>";
+		};
+		04FB5124228AE0C20096298C = {
+			isa = PBXGroup;
+			children = (
+				04FB5166228B1AF60096298C /* Default-568h@2x.png */,
+				04FB512F228AE0C20096298C /* ViperBasic */,
+				04FB512E228AE0C20096298C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FB512E228AE0C20096298C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FB512D228AE0C20096298C /* ViperBasic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FB512F228AE0C20096298C /* ViperBasic */ = {
+			isa = PBXGroup;
+			children = (
+				04328E1F228C03F9004330CF /* Utilities */,
+				04FB5149228AE0F10096298C /* Modules */,
+				04FB5130228AE0C20096298C /* AppDelegate.h */,
+				04FB5131228AE0C20096298C /* AppDelegate.m */,
+				04FB5136228AE0C20096298C /* Main.storyboard */,
+				04FB513C228AE0C30096298C /* Assets.xcassets */,
+				04FB513E228AE0C30096298C /* LaunchScreen.storyboard */,
+				04FB5141228AE0C30096298C /* Info.plist */,
+				04FB5142228AE0C30096298C /* main.m */,
+				04FB5139228AE0C20096298C /* ViperBasic.xcdatamodeld */,
+			);
+			path = ViperBasic;
+			sourceTree = "<group>";
+		};
+		04FB5149228AE0F10096298C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				04328E3E228C36E1004330CF /* AlbumDetails */,
+				04FB514A228AE0F10096298C /* Album */,
+				04FB515D228AE0F20096298C /* Constants */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04FB514A228AE0F10096298C /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				04FB5155228AE0F20096298C /* Protocols */,
+				04FB514B228AE0F10096298C /* Entity */,
+				04FB514E228AE0F10096298C /* Interactor */,
+				04FB5152228AE0F20096298C /* Presenter */,
+				04FB5157228AE0F20096298C /* View */,
+				04FB515A228AE0F20096298C /* Wireframe */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		04FB514B228AE0F10096298C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				04FB514C228AE0F10096298C /* AlbumEntity.h */,
+				04FB514D228AE0F10096298C /* AlbumEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		04FB514E228AE0F10096298C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				04FB514F228AE0F20096298C /* AlbumInteractor.h */,
+				04FB5150228AE0F20096298C /* AlbumInteractor.m */,
+				04FB5151228AE0F20096298C /* AlbumInteractorProtocol.h */,
+				04FB5168228B1C110096298C /* AlbumInteractorOutPutProtocol.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		04FB5152228AE0F20096298C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				04FB5153228AE0F20096298C /* AlbumPresenter.h */,
+				04FB5154228AE0F20096298C /* AlbumPresenter.m */,
+				04FB5165228AF99F0096298C /* PresenterToInetractorProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		04FB5155228AE0F20096298C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				04328E3D228C3497004330CF /* AlbumDetailsViewProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		04FB5157228AE0F20096298C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04FB5158228AE0F20096298C /* AlbumView.h */,
+				04FB5159228AE0F20096298C /* AlbumView.m */,
+				04FB5164228AE4990096298C /* AlbumViewProtocol.h */,
+				04FB5169228B27A90096298C /* AlbumTableCell.h */,
+				04FB516A228B27A90096298C /* AlbumTableCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04FB515A228AE0F20096298C /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				04FB515B228AE0F20096298C /* AlbumWireframe.h */,
+				04FB515C228AE0F20096298C /* AlbumWireframe.m */,
+				04328E53228C54BD004330CF /* AlbumWireframeProtocol.h */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		04FB515D228AE0F20096298C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04FB515E228AE0F20096298C /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		04FD9CA6228DBBD40098ABEB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				04FD9CA7228DBBD40098ABEB /* Simpalm_ReachabilityManager.h */,
+				04FD9CA8228DBBD40098ABEB /* Simpalm_ReachabilityManager.m */,
+				04FD9CA9228DBBD40098ABEB /* Reachability.h */,
+				04FD9CAA228DBBD40098ABEB /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FB512C228AE0C20096298C /* ViperBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FB5146228AE0C30096298C /* Build configuration list for PBXNativeTarget "ViperBasic" */;
+			buildPhases = (
+				04FB5129228AE0C20096298C /* Sources */,
+				04FB512A228AE0C20096298C /* Frameworks */,
+				04FB512B228AE0C20096298C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperBasic;
+			productName = ViperBasic;
+			productReference = 04FB512D228AE0C20096298C /* ViperBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FB5125228AE0C20096298C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Simpalm;
+				TargetAttributes = {
+					04FB512C228AE0C20096298C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 04FB5128228AE0C20096298C /* Build configuration list for PBXProject "ViperBasic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FB5124228AE0C20096298C;
+			productRefGroup = 04FB512E228AE0C20096298C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FB512C228AE0C20096298C /* ViperBasic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FB512B228AE0C20096298C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB5140228AE0C30096298C /* LaunchScreen.storyboard in Resources */,
+				04FB5167228B1AF60096298C /* Default-568h@2x.png in Resources */,
+				04FB513D228AE0C30096298C /* Assets.xcassets in Resources */,
+				04FB5138228AE0C20096298C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FB5129228AE0C20096298C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FB516B228B27A90096298C /* AlbumTableCell.m in Sources */,
+				04FB5162228AE0F20096298C /* AlbumView.m in Sources */,
+				04FB5160228AE0F20096298C /* AlbumInteractor.m in Sources */,
+				04FD9CAB228DBBD40098ABEB /* Simpalm_ReachabilityManager.m in Sources */,
+				04FD9CAC228DBBD40098ABEB /* Reachability.m in Sources */,
+				04328E52228C36E1004330CF /* AlbumDetailsVC.m in Sources */,
+				04328E51228C36E1004330CF /* AlbumDetailsRouter.m in Sources */,
+				04328E23228C043B004330CF /* Utils.m in Sources */,
+				04FB513B228AE0C20096298C /* ViperBasic.xcdatamodeld in Sources */,
+				04FB5161228AE0F20096298C /* AlbumPresenter.m in Sources */,
+				04350709228E9EBD0022CAE2 /* APIDataManager.m in Sources */,
+				04FB5143228AE0C30096298C /* main.m in Sources */,
+				04FB515F228AE0F20096298C /* AlbumEntity.m in Sources */,
+				04FB5163228AE0F20096298C /* AlbumWireframe.m in Sources */,
+				04328E50228C36E1004330CF /* AlbumDetailsPresenter.m in Sources */,
+				04FB5132228AE0C20096298C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04FB5136228AE0C20096298C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB5137228AE0C20096298C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FB513E228AE0C30096298C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FB513F228AE0C30096298C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FB5144228AE0C30096298C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04FB5145228AE0C30096298C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FB5147228AE0C30096298C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Piyush Jain (LW8N9S5743)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ViperBasic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpalm.testversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TestVersionDevelopment_12March19;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04FB5148228AE0C30096298C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Piyush Jain (LW8N9S5743)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ViperBasic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpalm.testversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TestVersionDevelopment_12March19;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FB5128228AE0C20096298C /* Build configuration list for PBXProject "ViperBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB5144228AE0C30096298C /* Debug */,
+				04FB5145228AE0C30096298C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FB5146228AE0C30096298C /* Build configuration list for PBXNativeTarget "ViperBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FB5147228AE0C30096298C /* Debug */,
+				04FB5148228AE0C30096298C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FB5139228AE0C20096298C /* ViperBasic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FB513A228AE0C20096298C /* ViperBasic.xcdatamodel */,
+			);
+			currentVersion = 04FB513A228AE0C20096298C /* ViperBasic.xcdatamodel */;
+			path = ViperBasic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FB5125228AE0C20096298C /* Project object */;
+}
