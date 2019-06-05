@@ -1,6 +1,9 @@
 /*
- Copyright (c) 2011, Tony Million.
- All rights reserved.
+ //  ViperBasic
+ //
+ //  Created by Mac on 15/05/19.
+ //  Copyright © 2019 Simpalm. All rights reserved.
+ //
  
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
